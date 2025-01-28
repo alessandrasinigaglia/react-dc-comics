@@ -1,1 +1,53 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+/* GENERAL */
+body {
+    font-family: "Fira Sans", serif;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.raw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #0282f9;
+}
+
+/* .selector {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    background-color: #0282f9;
+    top: 90px;
+    left: 52%;
+} */
