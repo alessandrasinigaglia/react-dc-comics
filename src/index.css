@@ -14,10 +14,11 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 /* HEADER */
-.raw {
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,3 +52,13 @@ nav a:hover {
     top: 90px;
     left: 52%;
 } */
+
+/* MAIN */
+.content {
+    min-height: 150px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    align-items: center;
+}

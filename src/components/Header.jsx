@@ -1,7 +1,7 @@
 export default function Header() {
     return (
     <header className="container">
-        <div className="raw">
+        <div className="row">
         <img src="/img/dc-logo.png"></img>
         <nav className="nav-list">
             <ul>
