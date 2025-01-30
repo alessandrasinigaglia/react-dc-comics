@@ -8,9 +8,7 @@ export default function Main() {
         <div className="content">
             <div className="container">
                 <button className="btn-curr-series">CURRENT SERIES</button>
-                <div className="row">
-                <ComicsList />
-                </div>
+                    <ComicsList />
             </div>
         </div>
     </main>

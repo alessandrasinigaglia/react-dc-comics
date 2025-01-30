@@ -5,16 +5,17 @@ export default function ComicsList() {
     return (
     <section className="comics">
         <div className="container">
-            <div className="row">
+            <div className="comics-grid">
                 {comics.map((elm) => {
                     return  ( 
                     <div className="comics.col" key={elm.id}>
-                    <ComicsCard thumb={elm.src} title={elm.title}
+                    <ComicsCard thumb={elm.thumb} title={elm.title}
                     />
                 </div>
                     );
                 })}
             </div>
+            <button className="load-more">LOAD MORE</button>
         </div>
     </section>
     )
