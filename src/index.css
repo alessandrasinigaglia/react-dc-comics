@@ -63,9 +63,43 @@ nav a:hover {
     min-height: 150px;
     padding: 15px;
     margin: 0 auto;
-    background-color: black;
     color: white;
     align-items: center;
+    background-color: black;
+}
+
+.banner {
+    min-height: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    background-image: url(../public/img/jumbotron.jpg);
+    position: relative;
+}
+
+.btn-curr-series {
+    color: white;
+    background-color: #0282f9;
+    border: 2px solid #0282f9;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: absolute;
+    top: 513px;
+}
+
+.btn-curr-series:hover {
+    transform: scale(1.1);
+}
+
+/* COMICS CARD */
+.comics-card img {
+    max-width: 100%;
+}
+
+.comics-col {
+    width: 25%;
 }
 
 /* FOOTER */
