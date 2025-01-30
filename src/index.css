@@ -26,9 +26,14 @@ body {
 .nav-list {
     display: flex;
     justify-content: flex-end;
+    /* position: relative; */
+}
+
+.nav-list ul {
+    display: flex;
     flex-direction: row;
     gap: 15px;
-    position: relative;
+    justify-content: flex-end;
 }
 
 nav li {
@@ -171,6 +176,7 @@ footer {
     min-height: 90px;
     position: sticky;
     z-index: 10;
+    align-items: center;
 }
 
 .btn {
